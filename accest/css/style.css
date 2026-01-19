@@ -15,7 +15,6 @@ ul{
   list-style: none;
 }
 
-/* HEADER CHÍNH */
 .header {
     background-color: #e50000;
     padding: 20px 0;
@@ -31,7 +30,6 @@ ul{
     justify-content: space-between;
 }
 
-/* LOGO */
 .logo-link {
     display: block;
     text-align: center;
@@ -49,7 +47,6 @@ ul{
     font-weight: normal;
 }
 
-/* DANH MỤC */
 .category-menu {
     background-color: #c00000;
     padding: 10px 15px;
@@ -67,7 +64,6 @@ ul{
     font-size: 16px;
 }
 
-/* THANH TÌM KIẾM */
 .search-box {
     display: flex;
     flex-grow: 1; 
@@ -278,7 +274,7 @@ ul{
 /* ---------------------------------- */
 
 .product-section-wrapper {
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .product-section-container {
@@ -337,7 +333,6 @@ ul{
 /* DANH SÁCH SẢN PHẨM  */
 .products-grid {
     display: grid;
-    /* Hiển thị 5 sản phẩm mỗi hàng */
     grid-template-columns: repeat(5, 1fr); 
     gap: 15px;
     overflow-x: hidden;
@@ -496,7 +491,6 @@ ul{
 
 /* -------------------------------- */
 
-/* FOOTER CHÍNH */
 .computershop-footer {
     background-color: #f8f8f8;
     color: #333;
@@ -510,7 +504,6 @@ ul{
     margin: 0 auto;
 }
 
-/* CÁC CỘT THÔNG TIN */
 .footer-columns {
     display: flex;
     justify-content: space-between;
@@ -614,7 +607,7 @@ ul{
 .social-icons .facebook { background-color: #3b5998; }
 .social-icons .youtube { background-color: #ff0000; }
 .social-icons .tiktok { background-color: #000000; }
-.social-icons .zale { background-color: #0084ff; }
+.social-icons .zalo { background-color: #0084ff; }
 .social-icons .google { background-color: #db4437; }
 .social-icons .twitter { background-color: #1da1f2; }
 
